@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.hypothesis/
+*.cover
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.history/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
