@@ -41,7 +41,6 @@ class KnowledgeBotApp:
         )
         agent_runnable = agent_prompt | llm.bind_tools(
             tools=[self.knowledge_tools.calculator, self.knowledge_tools.rag_retrival],
-            parallel_tool_calls=False,
         )
         response = agent_runnable.invoke(input=state)
         state["messages"] = add_messages(left=state["messages"], right=response)
