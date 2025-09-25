@@ -33,6 +33,8 @@ This notebook implements a **two-layer architecture** for building intelligent k
 - **Extensibility**  
   - Tools can be added (e.g., web search, code execution).  
   - Streaming responses can be enabled for real-time chat experiences.  
+  - In future versions, the system could adopt an **ephemeral RAG approach**, where documents are **temporarily loaded for the session** and discarded afterward.  
+  - This would enable **privacy-focused, short-lived retrieval** without storing long-term embeddings, ideal for sensitive or one-time queries.
 
 - **Use Case**  
   - Ideal for applications where users upload documents and query them interactively.  
